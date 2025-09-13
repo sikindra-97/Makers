@@ -1,0 +1,32 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "postinstall": "npm rebuild canvas --update-binary"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "canvas": "^3.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "face-api.js": "^0.22.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.1",
+    "multer": "^2.0.2",
+    "node-fetch": "^3.3.2",
+    "razorpay": "^2.9.6",
+    "uuid": "^13.0.0"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}
